@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Percorso del CSV di riepilogo
-csv_path = "deviance_nopca2.csv"  
+csv_path = "deviance_nopca.csv"  
 output_png = "images/deviance_nopca_graph.png"
 
 # Leggi il CSV
