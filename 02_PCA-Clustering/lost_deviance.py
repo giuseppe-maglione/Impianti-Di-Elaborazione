@@ -65,7 +65,7 @@ def intracluster_deviance(csv_path):
 
 if __name__ == "__main__":
     csv_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "clustering")
-    results_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "deviance2.csv")
+    results_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "deviance.csv")
 
     if not os.path.isdir(csv_folder):
         print(f"No folder '{csv_folder}' found. Nothing to process.")
